@@ -12,7 +12,7 @@ public class Ejemplo08 {
     static Scanner entrada = new Scanner(System.in);
 
     public static void main(String[] args) {
-
+        entrada.useLocale(Locale.US);
         // Ingresar por teclado el tamaño de un arreglo
         int tamanio;
         System.out.println("Ingrese el tamaño de un arreglo");
