@@ -15,19 +15,23 @@ public class Ejemplo06 {
         // [0][0]
         // [1][1]
         // hasta el final
-        
+        // Este proceso llama la funcion y se le da valores, una vez resuelto 
+        // se presenta en la misma linea de codigo
         for (int i = 0; i < valor1.length; i++) {
             System.out.printf("El valor es: %d\n", 
                     obtenerSuma(valor1[i], valor2[i]));
         }
         
+        //  Este proceso es casi igual que el anterior solo que num1 y num2
+        // Toma los valores del arreglo
         for (int i = 0; i < valor1.length; i++) {
             int num1 = valor1[i];
             int num2 = valor2[i];
             System.out.printf("El valor es: %d\n", 
                     obtenerSuma(num1, num2));
         }
-        
+        // En este ejemplo toma los valores del arreglo, llama la funcion y almacena
+        // en una variable que se presenta en la linea subsecuente
         for (int i = 0; i < valor1.length; i++) {
             int num1 = valor1[i];
             int num2 = valor2[i];

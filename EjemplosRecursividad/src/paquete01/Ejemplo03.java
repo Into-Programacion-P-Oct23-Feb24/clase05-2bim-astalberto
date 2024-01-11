@@ -1,5 +1,5 @@
 /*
- * Factorial sin recursividad
+ * Factorial sin recursivida
  * 5! = 5 * 4 * 3 * 2 * 1
  */
 package paquete01;
