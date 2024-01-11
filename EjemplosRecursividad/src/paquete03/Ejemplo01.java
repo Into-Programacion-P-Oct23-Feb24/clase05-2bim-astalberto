@@ -15,7 +15,8 @@ public class Ejemplo01 {
     }
 
     public static String[][] arreglo() {
-        String[][] arreglo2 = {{"lOJA","CUENCA","Quito"},{"Zamora","Guayaquill","Zapotillo"}};
+        String[][] arreglo2 = {{"Loja","Cuenca","Quito"},
+            {"Zamora","Guayaquill","Zapotillo"}};
         return arreglo2; 
     }
 }
